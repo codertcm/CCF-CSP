@@ -47,8 +47,6 @@ void store(node *root){
 		
 		reduce(a);
 		
-		cout << " test " << a << endl;
-		
 		scanf(" %c",&rb);
 		b += rb;
 		if(rb == '{'){
