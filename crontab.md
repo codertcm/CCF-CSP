@@ -74,6 +74,7 @@ void init(){
 
 void split(string& sample, vector<string>& v , char c){
 	v.clear();
+	string temp;
 	while(!sample.empty()){
 		if(sample.find(c) == string::npos){
 			v.push_back(sample);
@@ -81,7 +82,7 @@ void split(string& sample, vector<string>& v , char c){
 			break;
 		}
 		int id = sample.find(c);
-		string temp = sample.substr(0, id);
+		temp = sample.substr(0, id);
 		v.push_back(temp);
 		sample.erase(0, id+1);
 	}	
