@@ -1,6 +1,4 @@
-# 除法
 
-```c++
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -90,4 +88,5 @@ int main(int argc, char **argv)
     return 0; 
 }
 
-```
+
+// 题解: https://blog.csdn.net/vcvycy/article/details/78236424
